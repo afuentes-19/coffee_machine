@@ -53,7 +53,7 @@ def processPayment(drink):
         quarters_amt = int(input("Press enter amount of quarters: "))
         dimes_amt = int(input("Please enter amount of dimes: "))
         nickels_amt = int(input("Please enter amount of nickels: "))
-        pennies_amt = int(input("Please enter amount of pickels: "))
+        pennies_amt = int(input("Please enter amount of pennies: "))
     except ValueError as e:
         print(f"Sorry, you must enter a number: {e}")
         input("Press ENTER to continue")
